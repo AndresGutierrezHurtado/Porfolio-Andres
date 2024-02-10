@@ -1,0 +1,39 @@
+.navbar-collapse{ flex-grow: 0!important;}*{ font-family: system-ui, sans-serif;}a{text-decoration: none;color: black; }.scale, .dark-hover{ transition: .3s; } .scale:hover{ scale: 1.05; }
+*{
+    box-sizing: border-box;
+}
+main{
+    min-height: 100vh;
+    padding-top: 50px;
+}
+.nav-link{
+    margin: 0% 7px;
+    transition: .2s;
+    font-weight: bold;
+}
+.active{
+    color: rgb(68, 134, 221) !important;
+}
+.nav-link:hover{
+    color: rgb(68, 134, 221);
+    scale: 1.05;
+}   
+.container-personalizado{
+    max-width: 890px; width: auto;
+}
+.card{
+    min-height: 165px;
+}
+.dark-hover:hover{
+    background-color: rgba(0, 0, 0, 0.25)!important;
+}
+.navbar-nav{
+    transition: 0.4s;
+}
+.scrolled{
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+}
+.dashed:hover{
+    text-decoration: underline !important;
+}
